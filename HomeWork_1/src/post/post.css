@@ -1,0 +1,93 @@
+.list_guests{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width : 850px;
+    display: flex;
+    flex-direction: column;
+    margin : 0px auto;    
+
+}
+
+.guest_info{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width : 850px;
+    display: flex;
+    flex-direction: row;
+    margin : 0px auto;    
+}
+
+#block_txt {
+    width: 650px;
+    margin : 2px;
+    padding: 5px 5px;
+    margin-bottom: 2px;
+}
+
+#block_btn {
+    width: 200px;
+    margin : 2px;
+    padding: 5px 5px;
+    margin-bottom: 2px;  
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;       
+}
+
+.p {
+margin : 2px;    
+}
+
+
+
+#inputSearch{
+    width: 100%;
+    color: #b5b5b5;
+    font-size: 20px;
+    border: none;
+    height: 40px;
+    background-color: #e2e1df;
+}
+
+#root {
+    background-color: white;
+}
+
+.btn {
+  background: rgb(21, 238, 21);
+  border: 0em;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 8px 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight : bold;
+  width: 140px;
+  height: 60px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title1 {
+      font-size: 80px;
+      z-index: 1;
+      letter-spacing: -1px;
+}
+  
+#title2 {
+      color: red;
+      font-size: 40px;
+      transform: rotate(-10deg);
+      position: absolute;
+      margin-left: 450px;
+      font-weight: bold;
+      margin-bottom: 45px;
+      z-index: 0;
+}
