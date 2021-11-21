@@ -1,0 +1,12 @@
+.usersList {
+  display: block;
+  flex-direction: column;
+  background-color: #eeeeee;
+  padding: 40px;
+  width: 850px;
+  text-align: left;
+  /*align-items: center;
+   -webkit-fill-available;*/
+   margin-left: auto;
+   margin-right: auto
+}

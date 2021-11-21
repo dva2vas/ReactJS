@@ -1,0 +1,17 @@
+.row {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #000000;
+  align-content:space-between;
+}
+  .row:last-child {
+    border-bottom: none;
+  }
+
+
+
+.head {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
