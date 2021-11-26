@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { v4 as uuidv4 } from 'uuid';
+import uniqid from 'uniqid';
 import Table from "./Table";
 import Row from "./Table/Row";
 import Cell from "./Table/Cell";
@@ -42,9 +42,9 @@ class Task4 extends Component {
         const {data} = this.state
         return (
             <>
-                <h2>Task 4</h2>
+                <h2>Task #4</h2>
                 <Table>
-                    <Row head={false}>
+                    <Row head={true}>
                         <Cell background={'silver'}>
                             #
                         </Cell>
@@ -63,7 +63,7 @@ class Task4 extends Component {
                     </Row>
                     {
                         data.map((row) => (
-                            <Row key={uuidv4()}>
+                            <Row key={uniqid()}>
                                 <Cell>
                                 </Cell>
                                 <Cell

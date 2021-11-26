@@ -11,9 +11,10 @@
 
 
 .head {
-    display: flex;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-bottom: 1px solid black;
-    text-align: center;
+      display: flex;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-bottom: 1px solid black;
+      text-align: center;
+
 }
