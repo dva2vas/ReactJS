@@ -1,0 +1,22 @@
+.row-memo {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #000000;
+}
+    .row-memo:last-child {
+      border-bottom: none;
+    }
+  
+    .row-memo.head {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+/*       .cell-memo {
+        text-align: center;
+      } */
+   
+  
+    .row-memo:hover:not(.head) {
+      background-color: rgba(#000000, .1);
+    }
+  

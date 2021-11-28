@@ -1,0 +1,32 @@
+.notification-l6 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  max-width: 300px;
+
+  &__item {
+    padding: 10px 20px;
+    color: #000000;
+    background: #9ea7ad;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+
+    &-info {
+      background: #2dccff;
+    }
+
+    &-success {
+      background: #56f000;
+    }
+
+    &-warning {
+      background: #ffb302;
+    }
+
+    &-error {
+      background: #ff3838;
+    }
+  }
+}

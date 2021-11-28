@@ -1,0 +1,16 @@
+.UseEffectColumns {
+    display: flex;
+    align-items: baseline;
+    overflow-y: scroll;
+    height: 500px;
+    border: 2px solid #000000;
+} 
+.column {
+      padding: 10px;
+      border-right: 2px solid #000000;
+}  
+.column:last-child {
+        border-right: 0;
+      }
+    
+  

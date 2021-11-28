@@ -1,0 +1,51 @@
+.todo {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+  /* &__header {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__helper {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  &__input {
+    width: 390px;
+    margin-right: 10px;
+    padding: 5px 2px 4px 2px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #000000;
+  }
+
+  &__btn {
+    height: min-content;
+    font-size: 16px;
+    width: 100px;
+    padding: 5px 10px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    &-add {
+      background: #0091ff;
+    }
+
+    &-delete {
+      background: #ff6200;
+    }
+
+    &:hover {
+      opacity: .8;
+    }
+  } */
+
+}

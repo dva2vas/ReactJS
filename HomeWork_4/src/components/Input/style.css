@@ -1,0 +1,33 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+}  
+  
+.input__label {
+      font-size: 20px;
+      font-weight: bold;
+  
+}
+  
+.input__field {
+      width: 300px;
+      padding: 10px 0 5px 0;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid grey;
+      outline: none;
+      font-size: 16px;
+}
+
+.input:focus {
+        border-bottom: 2px solid blue;
+}
+  
+.input.valid {
+        border-bottom: 2px solid green;
+}
+  
+    
+  

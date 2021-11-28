@@ -1,0 +1,79 @@
+/* 
+    .toggle.dark.toggle__item {
+      color: #ffffff;
+      background: #698096;
+    }
+      .toggle.dark.toggle__item:hover {
+        background: #455c73;
+      }
+
+      .toggle.dark.active {
+        background: #003a56;
+      }
+        .toggle.dark.active:hover {
+          background: #002f42;
+        }
+
+
+
+
+
+  .input__field.light {
+    border-color: lightgrey;
+  }
+    .input__field.light::placeholder {
+      color: #b5b5b5
+    }
+
+
+    .input__field.dark {
+    border-color: #22272e;
+    }
+    .input__field.dark::placeholder {
+      color: #2d333b
+    } */
+
+
+  .table-memo.light {
+    border-color: lightgrey;
+  }
+
+  .table-memo.dark {
+    border-color: #22272e;
+  }
+
+
+
+  .row-memo.light {
+    border-color: lightgrey !important;
+    background-color: #d0d7de;
+    color: #000000 !important;
+  }
+
+  .row-memo.dark {
+    border-color: #22272e !important;
+    background-color: #2d333b;
+    color: #ffffff !important;
+  }
+
+  .row-memo.dark:hover:not(.head) {
+    background-color: rgba(#2d333b, .9);
+  }
+
+
+
+  .cell-memo.light {
+    border-color: lightgrey;
+  }
+
+  .cell-memo.text.light {
+    color: #000000 !important;
+  }
+
+  .cell-memo.dark {
+    border-color: #22272e;
+  }
+
+  .cell-memo.text.dark {
+    color: #ffffff !important;
+  }

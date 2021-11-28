@@ -1,0 +1,35 @@
+.btn-l5 {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 10px 0;
+    border: none;
+    background: #005eff;
+    color: #ffffff;
+/*   
+    &:hover {
+      background: #004bd2;
+      color: #ffffff;
+    }
+  }
+  
+  .post__list {
+    width: 100%;
+  
+    &-loading {
+      text-align: center;
+    }
+  
+    &-img {
+      width: 150px;
+      height: 150px;
+    }
+  
+  
+    &__item {
+      padding: 10px 10px 20px 10px;
+  
+      &-title {
+        text-transform: capitalize;
+      }
+    } */
+  }
