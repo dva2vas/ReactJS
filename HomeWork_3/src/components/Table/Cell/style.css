@@ -1,0 +1,27 @@
+.cell-memo {
+    width: 100%;
+    border-right: 1px solid #000000;
+}
+    .cell-memo:last-child {
+      border-right: none;
+    }
+  
+    .cell-memo__input {
+      font-size: xx-small;
+      text-align: center;
+      padding: 0;
+      outline: none;
+      border: none;
+      width: inherit;
+      height: 30px;
+    }
+    .cell-memo:hover {
+        background-color: #b3b3b3;
+      } 
+  
+/*       &:focus {
+        background-color: #0070ff;
+        color: white;
+      }
+    }
+  } */

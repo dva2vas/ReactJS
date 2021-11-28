@@ -1,0 +1,58 @@
+.age {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+  
+.age__label {
+      font-size: 20px;
+      font-weight: bold;
+
+      
+    }
+  
+.age__input {
+      display: flex;
+      width: inherit;
+      width: 100%;
+      padding: 10px 10px 10px 0;      
+}
+
+  
+.input {
+      width: inherit;
+      width: 100%;
+      padding: 10px 10px 10px 0;
+} 
+
+.input:last-of-type {
+        padding: 10px 0 10px 0;
+}
+    
+ 
+  
+.submit {
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    background: #005555;
+    color: white;
+    text-transform: uppercase;
+    width: inherit;
+}
+
+.submit:hover {
+      background: #0055ee;
+
+}
+  
+.submit:active {
+      background: #005555;
+}   
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+}
