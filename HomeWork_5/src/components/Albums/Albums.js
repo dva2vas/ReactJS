@@ -29,7 +29,7 @@ export const Albums = () => {
                         <div key={uniqid()} className={"photo__list__item"}>
                             <h3 className={"photo__list__item-title"}><b>{post.id}.</b> {post.title}</h3>
                             <div>
-                                <Link key={post.id} to={`/lesson/5/users/${post.userId}`}>
+                                <Link key={post.id} to={`/users/${post.userId}`}>
                                     {!users ?
                                         <h3> Loading author... </h3> :
                                         users.map((i) => {
@@ -39,8 +39,9 @@ export const Albums = () => {
                                             return false;
                                         })}
                                 </Link><br/>
-                                <Link key={uniqid()} to={`/lesson/5/albums/${post.id}/photos`}>
-                                    details...
+                                <Link key={uniqid()} 
+                                      to={`/albums/${post.id}/photos`}>
+                                      details...
                                 </Link>
                             </div>
                         </div>

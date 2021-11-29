@@ -20,6 +20,8 @@ export const Posts = () => {
         }
     );
 
+    
+
     let url;
     if (usersid) {
         url = `https://jsonplaceholder.typicode.com/users/${usersid}/posts`;
@@ -29,10 +31,13 @@ export const Posts = () => {
     }
 
     const [posts] = useDataFetch(url);
-
+console.log(posts);
     const handlerSelector = ({value}) => () => {
-        setSelector(value);
-        history.push(`/lesson/5/posts/limit/${value}`);
+        setSelector({
+            ...selector,
+            activeState: value
+        });
+        history.push(`/posts/limit/${value}`);
     };
 
     return (<>
@@ -52,7 +57,7 @@ export const Posts = () => {
                         <div key={uniqid()} className={"posts__list__item"}>
                             <h3 className={"posts__list__item-title"}><b>{post.id}.</b> {post.title}</h3>
                             <div>
-                                <Link key={uniqid()} to={`/lesson/5/posts/${post.id}`}>
+                                <Link key={uniqid()} to={`/posts/${post.id}`}>
                                     details...
                                 </Link>
                             </div>

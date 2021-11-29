@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import {
+  BrowserRouter
+} from "react-router-dom";
 import './App.css';
 
 
@@ -8,10 +11,9 @@ import { Task1 } from './Task1';
 function App() {
   return (
     <>
-      <div className='block_tasks'>
-        <Task1/>
-     </div>
-
+        <BrowserRouter>
+          <Task1/>
+        </BrowserRouter>
     </>
   );
 }

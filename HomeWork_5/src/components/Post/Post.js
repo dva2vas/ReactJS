@@ -21,7 +21,7 @@ export const Post = () => {
                     <h3> Loading post... </h3> :
                     <div>
                         <h2 className={"posts__list__item-title"}><b>{post.id}.</b> {post.title}</h2>
-                        <Link key={post.id} to={`/lesson/5/users/${post.userId}`}>
+                        <Link key={post.id} to={`/users/${post.userId}`}>
                             {!users ?
                                 <h3> Loading author... </h3> :
                                 users.map((i) => {

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import parrot                       from "../../assets/parrot.svg";
-import parrotFill                   from "../../assets/parrotFill.svg";
+import star                       from "../../assets/star.png";
+import starCheck                   from "../../assets/starCheck.png";
 import uniqid                       from "uniqid";
 
 
@@ -40,9 +40,9 @@ export const Rating = ({id}) => {
 
     const ratingBtn = () => {
         const arr = [];
-        let img = parrotFill;
+        let img = starCheck;
         for (let i = 0; i < 5; i++) {
-            if (i >= rating) img = parrot;
+            if (i >= rating) img = star;
             arr.push(btn({value: i + 1, img}));
         }
         return arr;
