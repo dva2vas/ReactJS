@@ -5,7 +5,10 @@ import {Button} from "../Buttons/";
 import {Input} from "../Input/";
 import {Toggler} from "../Toggler/";
 import {TogglerItem} from "../TogglerItem/";
-import {Cell, Row, Table} from "../Table/"; 
+import {Cell } from "../Table/Cell/"; 
+import {Row} from "../Table/Row/"; 
+import {Table} from "../Table/"; 
+
 import {ThemeContext} from "../CreateContext/ThemeContext";
 
 import "./style.css";
@@ -19,7 +22,7 @@ export class ChangeTheme extends Component {
         input: "",
         toggler: {
             id: uniqid(),
-            activeState: "Diagrams",
+            activeState: "Light",
             name: "Diagrams",
             items: ["Cycle", "Round", "Block", "Spiral"],
         }
@@ -99,14 +102,14 @@ export class ChangeTheme extends Component {
 
                         <Table theme={theme}>
                             <Row head={true}>
-                                {/* <Cell>#</Cell> */}
+                                <Cell>№</Cell>
                                 <Cell>date</Cell>
                                 <Cell>number</Cell>
                                 <Cell>money</Cell>
                             </Row>
-                            {data.map((row) => (
+                            {data.map((row, index) => (
                                 <Row key={uniqid()}>
-                                   {/*  <Cell >{uniqid()}</Cell> */}
+                                    <Cell type='number'>{index + 1}</Cell>
                                     <Cell type='date'>{row.date}</Cell>
                                     <Cell type='number'>{row.number}</Cell>
                                     <Cell type='money' currency={row.money.currency}>

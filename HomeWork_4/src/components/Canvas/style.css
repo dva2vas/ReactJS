@@ -3,6 +3,7 @@
     margin: 5px;
     padding: 5px 10px;
     font-size: 14px;
+    
 }  
     .custom-btn.randomize {
       background-color: rgb(162, 72, 247);
@@ -56,7 +57,7 @@
       }
   
       .chart.stop {
-        color: rgb(240, 150, 150);
+        color: rgb(1, 7, 26);
       }
 
   

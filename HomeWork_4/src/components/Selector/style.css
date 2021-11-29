@@ -51,7 +51,7 @@
         border-color: black;
         border-style: solid;
       }
-        .selector:hover {
+        .selector__item:hover {
           background: #0043cc;
         }
       

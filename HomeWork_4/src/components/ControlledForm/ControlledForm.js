@@ -119,7 +119,7 @@ export const ControlledForm = () => {
                 {toggler.items.map(item => <TogglerItem key={uniqid()} value={item}/>)}
             </Toggler>
 
-            <Button text={"Enter"} style={{width: "-webkit-fill-available"}} action={onSubmit}/>
+            <Button text={"Enter"} style={{width: "-webkit-fill-available", height: "50px", backgroundColor: "blanchedalmond"}} action={onSubmit}/>
 
             <div>
                 {stack.map(data => result(data))}

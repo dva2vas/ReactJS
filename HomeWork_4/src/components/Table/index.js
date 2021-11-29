@@ -1,10 +1,12 @@
 import React from "react";
+import classNames  from "classnames";
 import "./style.css";
 
 
-export const Table = ({children}) => {
+export const Table = ({children, theme}) => {
     return (
-        <div className='table-memo'>
+        <div className={classNames('table-memo', theme)}>
+            
             {React.Children.map(children, child => {
                 return React.cloneElement(child);
             })}
@@ -12,5 +14,3 @@ export const Table = ({children}) => {
     );
 };
 
-export * from "./Cell"
-export * from "./Row"
